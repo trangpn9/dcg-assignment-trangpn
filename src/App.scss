@@ -1,0 +1,24 @@
+@import "./assets/scss/variables";
+
+#App {
+  h1 {
+    color: $text-primary;
+    font-family: inherit;
+    font-weight: 100;
+  }
+  button {
+    color: $btn-primary-color;
+  }
+  .box-operand, .box-result-operator, .icon-equal {
+    font-family: inherit;
+    font-weight: 100;
+  }
+  .icon-equal {
+    font-size: 65px;
+    margin-bottom: 0;
+  }
+  .box-result-operator {
+    color: $text-primary;
+    font-size: 100px;
+  }
+}
