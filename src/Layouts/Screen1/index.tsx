@@ -23,7 +23,7 @@ const Screen1 = ():React.ReactElement => {
       className="row mt-5 justify-content-center needs-validation"
       onSubmit={handleSubmit}
     >
-      <div className="col-md-3 col-12">
+      <div className="col-md-3 col-12 mb-2">
         <InputField
           onHandleChange={handleSetFirstOperand}
           label="Please enter a number"
