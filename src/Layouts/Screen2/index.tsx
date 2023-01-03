@@ -86,7 +86,7 @@ const Screen2 = (): React.ReactElement => {
         className="row g-2 justify-content-center"
         onSubmit={handleSubmitOperator}
       >
-        <div className="col-md-2 col-6">
+        <div className="col-md-3 col-6">
           <div className="form-floating">
             <select
               className="form-select"
@@ -101,14 +101,14 @@ const Screen2 = (): React.ReactElement => {
             <label htmlFor="floatingSelectGrid">Operator</label>
           </div>
         </div>
-        <div className="col-md-2 col-6">
+        <div className="col-md-3 col-6">
           <InputField
             onHandleChange={handleSetSecondOperand}
             label="Operand"
             ref={refInputSecondOperand}
           ></InputField>
         </div>
-        <div className="col-md-2 col-12 d-grid gap-2">
+        <div className="col-md-3 col-12 d-grid gap-2">
           <button type="submit" className="btn btn-primary btn-lg">
             Add Operation
           </button>
